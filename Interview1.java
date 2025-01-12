@@ -83,6 +83,27 @@ public class Interview1 {
       SoftAssert verify = new SoftAssert();     
       verify.assertEquals(1, Card_element.getText());
       System.out.println("Actual and expected value is matching");
+//		Actions action1 = new Actions(driver);
+//		WebElement Input_Slider_Control = driver.findElement(By.xpath("//input[@id='mySlider']"));
+//		Robot robot = new Robot();
+//		robot.mousePress(1);
+		//robot.
+//		WebElement Input_Slider_Control_Source = driver.findElement(By.xpath("//label[contains(text(),'Progress Bar: ')]"));
+//		String Test1 = Input_Slider_Control_Source.getText();
+//		System.out.println(Test1);
+		//Thread.sleep(5000);
+		//action1.moveToElement(Input_Slider_Control).click().perform();
+		//Thread.sleep(5000);
+		//WebElement Input_Slider_Control_Target = driver.findElement(By.xpath("//label[contains(text(),'Progress Bar: (50%)')]"));
+		//action1.clickAndHold(Input_Slider_Control).moveToElement(Input_Slider_Control).build().perform();
+//		while(Test1=="Progress Bar: (90%)")
+//		{
+//		action1.clickAndHold(Input_Slider_Control).moveToElement(Input_Slider_Control).release().perform();
+//		Thread.sleep(1000);
+//		Test1 = Input_Slider_Control_Target.getText();
+//		System.out.println(Test1);
+//		}
+		//action1.dragAndDrop(Input_Slider_Control_Source, Input_Slider_Control_Target).perform();
 		
   }
   
